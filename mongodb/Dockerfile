@@ -1,5 +1,7 @@
 FROM mongo:3
-MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
+
+
+LABEL maintainer="Karthikeyan Velusamy <karthikeyanvelusamycs@gmail.com>"
 
 ADD init.sh /init.sh
 ADD ./dump /
